@@ -9,6 +9,9 @@ public class Test {
         System.out.println(sample.add(2, 3));
         System.out.println(sample.minus(2, 3));
         sample.printId();
+
+        Sample sample2 = new JavaSample(2);
+        sample2.printId();
     }
 
 }
