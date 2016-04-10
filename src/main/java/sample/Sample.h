@@ -18,7 +18,7 @@ public:
     }
 
     virtual void printId() {
-        printf("id=%d\n", id);
+        printf("id=%ld\n", id);
     }
 
 };
